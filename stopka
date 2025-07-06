@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Sklepmilitarny - Sekcja CTA</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Russo+One&family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      color: #333;
+      background-color: #fff;
+      line-height: 1.5;
+      margin: 0;
+      padding: 0;
+      font-weight: 400;
+    }
+
+    h1, h2, h3, h4, h5, h6,
+    .btn {
+      font-family: 'Russo One', sans-serif;
+    }
+
+    .btn {
+      display: inline-block;
+      background-color: #2f2f31;
+      color: white;
+      padding: 0.625rem 1.25rem;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+      text-transform: uppercase;
+      font-size: 0.875rem;
+      transition: background-color 0.3s ease, box-shadow 0.3s ease, text-shadow 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #BEB17C;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+      text-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+    }
+
+    .footer_1 {
+      border: 1px solid #BEB17C;
+    }
+
+    .social-icon {
+      transition: transform 0.3s ease, filter 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .social-icon:hover {
+      filter: brightness(0) saturate(100%) invert(75%) sepia(9%) saturate(465%) hue-rotate(9deg) brightness(96%) contrast(84%);
+      transform: scale(1.1);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    @media only screen and (max-width: 600px) {
+      .container,
+      .wrapper-inner,
+      .row,
+      .columns {
+        width: 100%;
+        display: block;
+        text-align: center;
+      }
+
+      .columns th {
+        padding: 0.625rem 0;
+      }
+
+      .footer_1 {
+        padding: 0.625rem;
+      }
+
+      .btn {
+        display: block;
+        margin: 0.625rem auto;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <table class="wrapper cta-section" align="center" style="width:100%; background: #fefefe;">
+    <tr>
+      <td class="wrapper-inner" style="padding: 1.25rem 0; text-align: center;">
+        <a href="https://www.sklepmilitarny.com.pl/Bestsellery" class="btn">Sprawdź nasze bestsellery</a>
+
+        <p style="font-size:0.875rem;margin: 1rem 0;font-weight:700;">Odwiedź nasze profile:</p>
+        <table align="center" style="margin: 0 auto; text-align: center">
+          <tr>
+            <td style="padding: 0 5px"><a href="https://www.facebook.com/share/19MvcXR5fr/" target="_blank"><img loading="lazy" class="social-icon" src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/facebook.svg" alt="Facebook" width="34" height="34" style="border:none" /></a></td>
+            <td style="padding: 0 5px"><a href="https://www.instagram.com" target="_blank"><img loading="lazy" class="social-icon" src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/instagram.svg" alt="Instagram" width="34" height="34" style="border:none" /></a></td>
+            <td style="padding: 0 5px"><a href="https://www.tiktok.com" target="_blank"><img loading="lazy" class="social-icon" src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/tiktok.svg" alt="TikTok" width="34" height="34" style="border:none" /></a></td>
+            <td style="padding: 0 5px"><a href="https://www.youtube.com" target="_blank"><img loading="lazy" class="social-icon" src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/youtube.svg" alt="YouTube" width="34" height="34" style="border:none" /></a></td>
+          </tr>
+        </table>
+
+        <table class="body" style="background:#fff;width:100%;" valign="top" align="center">
+          <center style="width:100%">
+            <table align="center" class="container float-center" style="background:#fff;margin:0 auto;width:580px">
+              <tr>
+                <td>
+                  <table align="center" class="container float-center" style="background:#fff;margin:0 auto;width:100%">
+                    <tr>
+                      <td>
+                        <table class="wrapper secondary footer_1" align="center" style="background:#f3f3f3;border:1px solid #BEB17C;width:100%">
+                          <tr>
+                            <td class="wrapper-inner" style="padding:1rem">
+                              <table class="row" style="width:100%;">
+                                <tr>
+                                  <th class="small-12 large-6 columns first" style="padding:0 12px;text-align:left;width:50%;vertical-align:top;">
+                                    <table style="width:100%"><tr><th style="text-align:left;">
+                                      <h5 style="margin:0 0 10px;font-size:1rem;font-weight:700">SKLEP MILITARNY</h5>
+                                      <p style="font-size:0.75rem;line-height:1.4;margin:0;">ul. Orla 11/1,<br>41-205 Sosnowiec, Polska<br>NIP: 531-153-29-9<br>tel.: +48 531 153 299<br><a href="mailto:sklep@protarget.pl" style="color:#1a73e8;text-decoration:none">sklep@protarget.pl</a></p>
+                                    </th></tr></table>
+                                  </th>
+                                  <th class="small-12 large-6 columns last" style="padding:0 12px;text-align:left;width:50%;vertical-align:top;">
+                                    <table style="width:100%"><tr><th style="text-align:left;">
+                                      <h5 style="margin:0 0 10px;font-size:1rem;font-weight:700">BEZPIECZNE ZAKUPY</h5>
+                                      <p style="font-size:0.75rem;line-height:1.4;margin:0;">Korzystamy z <strong>bezpiecznych systemów</strong> i przestrzegamy zasad prywatności.<br>Więcej informacji znajdziesz w naszym <a href="https://www.sklepmilitarny.com.pl" style="color:#1a73e8;text-decoration:none">sklepie</a>.</p>
+                                    </th></tr></table>
+                                  </th>
+                                </tr>
+                              </table>
+                            </td>
+                          </tr>
+                        </table>
+
+                        <table class="wrapper footer_2" align="center" style="width:100%">
+                          <tr>
+                            <td class="wrapper-inner">
+                              <table class="row" style="width:100%; text-align: center">
+                                <tr>
+                                  <th class="small-12 large-6 columns first" style="padding:0 12px;text-align:center">
+                                    <a href="https://www.protarget.com.pl/login.php" class="btn">Twoje konto</a>
+                                    <p style="font-size:0.75rem;margin-top:0.5rem;">Zarządzaj swoimi danymi, hasłem i rabatami w panelu klienta.</p>
+                                  </th>
+                                  <th class="small-12 large-6 columns last" style="padding:0 12px;text-align:center">
+                                    <a href="https://www.protarget.com.pl/client-orders.php?display=opened" class="btn">Twoje zamówienia</a>
+                                    <p style="font-size:0.75rem;margin-top:0.5rem;">Sprawdź status i historię swoich zamówień, reklamacji oraz zwrotów.</p>
+                                  </th>
+                                </tr>
+                              </table>
+                            </td>
+                          </tr>
+                        </table>
+
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </center>
+        </table>
+      </td>
+    </tr>
+  </table>
+
+</body>
+</html>
